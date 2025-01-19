@@ -17,12 +17,19 @@ body {
 header {
     text-align: center;
     margin-bottom: 50px;
+    position: relative;
+}
+
+header .logo {
+    width: 100px; /* Adjust the size as needed */
+    margin-top: 20px;
 }
 
 header h1 {
     font-size: 3em;
     color: #ff0000;
     text-shadow: 0 0 10px #ff0000;
+    margin-top: 20px; /* Adjust to position the text below the logo */
 }
 
 nav {
