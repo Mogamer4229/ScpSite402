@@ -17,19 +17,12 @@ body {
 header {
     text-align: center;
     margin-bottom: 50px;
-    position: relative;
-}
-
-header .logo {
-    width: 100px; /* Adjust the size as needed */
-    margin-top: 20px;
 }
 
 header h1 {
     font-size: 3em;
     color: #ff0000;
     text-shadow: 0 0 10px #ff0000;
-    margin-top: 20px; /* Adjust to position the text below the logo */
 }
 
 nav {
@@ -64,14 +57,42 @@ p {
     font-size: 1.2em;
 }
 
-a {
-    color: #00ff00;
-    text-decoration: underline;
-    transition: color 0.3s;
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    display: inline-block;
+    text-align: left;
 }
 
-a:hover {
-    color: #ff0000;
+label {
+    color: #00ff00;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #00ff00;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff0000;
 }
 
 footer {
