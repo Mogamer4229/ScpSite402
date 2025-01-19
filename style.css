@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -42,8 +42,33 @@ nav a:hover {
     text-shadow: 0 0 10px #ff0000;
 }
 
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
 footer {
-    position: absolute;
-    bottom: 20px;
     color: #808080;
+    margin-top: auto;
+    padding: 20px;
 }
